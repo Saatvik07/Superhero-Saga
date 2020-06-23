@@ -1,0 +1,59 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.board-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  background-color: #e9c46a;
+}
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  border-bottom: 2px solid #242423;
+}
+.display {
+  width: 100%;
+}
+.board-heading {
+  margin: 0 0.27rem;
+  color: #264653;
+  border-bottom: 2px solid #242423;
+}
+.refresh {
+  background-color: #e76f51;
+  color: #242423;
+  font-weight: bold;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  border: none;
+  border-radius: 25%;
+  padding: 0.55rem;
+  margin: 0.55rem;
+}
+/*.refresh:hover {
+  box-shadow: 0 0 10px greenyellow, 0 0 40px greenyellow, 0 0 80px greenyellow;
+}*/

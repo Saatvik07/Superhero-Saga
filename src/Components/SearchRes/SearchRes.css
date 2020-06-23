@@ -1,0 +1,97 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.carousel {
+  width: 80%;
+  margin: 0 auto;
+}
+.carousel-indicators li {
+  background-color: #e9c46a;
+  opacity: 1;
+  height: 3px;
+}
+.carousel-control-next-icon {
+  background-image: url("https://pluspng.com/img-png/png-next-to-continue-192.png");
+}
+.carousel-control-prev-icon {
+  background-image: url("https://pluspng.com/img-png/png-next-to-continue-192.png");
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+.search-swiper {
+  margin: 1.1rem;
+}
+.search-slide {
+  width: 500px;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+}
+.search-swiper-container {
+  width: 100%;
+  height: 500px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #242423;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+}
+#root > div > div:nth-child(1) > div.App > div.left-flex > div:nth-child(2) > div.swiper-pagination.swiper-pagination-progressbar > span {
+  background-color: #e9c46a;
+}
+#root > div > div:nth-child(1) > div.App > div.left-flex > div:nth-child(2) > div.swiper-button-next,
+#root > div > div:nth-child(1) > div.App > div.left-flex > div:nth-child(2) > div.swiper-button-prev {
+  color: #e9c46a;
+}
+@media only screen and (max-width: 1020px) {
+  .carousel {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .search-swiper-container {
+    width: 100%;
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #242423;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+  }
+  .carousel {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

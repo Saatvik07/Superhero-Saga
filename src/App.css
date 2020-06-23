@@ -1,0 +1,340 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+body,
+html,
+#root {
+  height: 100%;
+  width: 100%;
+  font-family: "Bangers", cursive;
+  background-color: #242423;
+}
+
+html {
+  font-size: 18px;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+
+  letter-spacing: 1px;
+}
+.App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  position: relative;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: #242423;
+}
+.navbar1 {
+  background-color: #191919;
+  padding: 0.55rem;
+  margin-bottom: 1.6667rem;
+}
+.left-flex {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: centre;
+  -ms-flex-align: centre;
+  align-items: centre;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  margin: 1.66rem 1.1rem;
+  width: 40%;
+}
+.right-flex {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0.55rem 0;
+  width: 55%;
+}
+.team-maker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  width: 100%;
+  background-color: #242423;
+}
+.team-display {
+  width: 100%;
+  display: block;
+}
+.stats,
+.opponent-stats,
+.my-team-stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.swiper-container {
+  width: 100%;
+  height: 400px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #242423;
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+.first-team-card {
+  position: relative;
+  height: 300px;
+  width: 300px;
+  background-color: #e9c46a;
+  border: 3px solid #e76f51;
+}
+.close span {
+  color: #f4a261;
+}
+
+.first-team-card-content {
+  width: 300px;
+  padding: 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.first-team-card-text {
+  position: relative;
+  width: 100%;
+  height: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #e76f51;
+  color: #242423;
+}
+.first-team-card-content h5 {
+  color: #242423;
+}
+.swiper-pagination-bullet {
+  background-color: #e9c46a;
+}
+footer {
+  background-color: #e9c46a;
+  opacity: 0.7;
+  margin-top: 1.6667rem;
+  width: 100%;
+}
+footer p {
+  margin-bottom: 0;
+  text-align: center;
+}
+.opponent-stats-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #f4a261;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 0.55rem 1.1rem 1.1rem 1.1rem;
+}
+@media only screen and (max-width: 1020px) and (min-width: 721px) {
+}
+@media only screen and (max-width: 720px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+  .App {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .left-flex {
+    margin-right: 1.1rem;
+    width: 70vw;
+    -webkit-box-align: centre;
+    -ms-flex-align: centre;
+    align-items: centre;
+  }
+  .right-flex {
+    width: 90vw;
+  }
+  .stats {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    width: 35%;
+    margin-top: 1.1rem;
+  }
+  .team-maker {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  .team-display {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 60%;
+  }
+  .swiper-slide {
+    width: 150px;
+  }
+  .swiper-container {
+    width: 100%;
+    height: 300px;
+  }
+  .first-team-card {
+    height: 200px;
+    width: 150px;
+  }
+  .first-team-card-content {
+    width: 150px;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .first-team-card-text {
+    position: relative;
+    width: 100%;
+    height: 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .opponent-stats-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #f4a261;
+    margin: 0.55rem;
+  }
+
+  .opponent-stats-container h2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .navbar1 {
+    margin-bottom: 1.1rem;
+  }
+}
+@media only screen and (max-width: 1020px) and (min-width: 721px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+  .App {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .left-flex {
+    margin-right: 1.1rem;
+    width: 70vw;
+    -webkit-box-align: centre;
+    -ms-flex-align: centre;
+    align-items: centre;
+  }
+  .right-flex {
+    width: 90vw;
+  }
+  .stats {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}

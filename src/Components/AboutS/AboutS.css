@@ -1,0 +1,157 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.about-card,
+.about-card-won,
+.about-card-lost,
+.about-card-draw {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f4a261;
+  color: #242423;
+  margin: 0 auto;
+  padding: 1.1rem;
+}
+#root
+  > div
+  > div.about-container
+  > div:nth-child(2)
+  > div
+  > div
+  > div.swiper-container.swiper-container-initialized.swiper-container-horizontal
+  > div.swiper-button-next,
+#root
+  > div
+  > div.about-container
+  > div:nth-child(2)
+  > div
+  > div
+  > div.swiper-container.swiper-container-initialized.swiper-container-horizontal
+  > div.swiper-button-prev {
+  color: #f4a261;
+}
+.about-card-won {
+  background-color: #2b9348;
+}
+.about-card-lost {
+  background-color: #d62828;
+}
+.about-card-draw {
+  background-color: #e85d04;
+}
+.vert-card {
+  width: 65%;
+  margin: 0 1.5rem;
+  background-color: #f4a261;
+}
+.abtCard-title {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.about-card-thumbnail {
+  background-color: #f4a261;
+  text-align: center;
+}
+.thumbnail-swiper {
+  margin: 1.1rem;
+}
+.universes {
+  color: black;
+}
+.feedback {
+  overflow-y: scroll;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.thumbnail-slide {
+  margin-right: 10px;
+  width: 150px;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 60px;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  position: relative;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+}
+.thumbnail-swiper {
+  width: 100%;
+  height: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #242423;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
+}
+@media only screen and (max-width: 720px) {
+  .vert-card {
+    width: 100%;
+  }
+  .about-card {
+    padding: 0.55rem;
+  }
+  .about-card-title {
+    font-size: 0.77778rem;
+    text-align: center;
+  }
+  .about-card-content,
+  .about-card-content-first {
+    font-size: 0.67777rem;
+  }
+  .about-card-thumbnail {
+    font-size: 0.55rem;
+  }
+  .thumbnail-slide {
+    width: 100px;
+  }
+  .abtCard-title {
+    font-size: 0.55rem;
+    margin: 0;
+  }
+}

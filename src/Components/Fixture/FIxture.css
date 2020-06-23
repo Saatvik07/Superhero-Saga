@@ -1,0 +1,186 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.fixture-div {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 50%;
+}
+.fixture-right {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: centre;
+  -ms-flex-align: centre;
+  align-items: centre;
+  margin: 0 1.1rem;
+  -webkit-box-pack: centre;
+  -ms-flex-pack: centre;
+  justify-content: centre;
+  width: 45%;
+}
+.fixture-left {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 45%;
+  margin: 0 1.1rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+.fixture-card,
+.fixture-card-right {
+  width: 100%;
+  margin: 1.1rem 0;
+  z-index: 1000;
+}
+.fixture-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: centre;
+  -ms-flex-align: centre;
+  align-items: centre;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.versus {
+  margin-top: 18rem;
+  font-size: 2rem;
+  color: #e76f51;
+}
+.changeform-button {
+  background-color: #e76f51;
+  color: #242423;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 2rem;
+  border: none;
+  padding: 0 1.1rem;
+}
+.fight-btn {
+  background-color: #e76f51;
+  color: #242423;
+  border: none;
+  font-size: 2rem;
+  padding: 0 1.1rem;
+  display: inline-block;
+  margin: 0.55rem auto;
+}
+.fixture-outermost-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.fixture-btn-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+}
+@media only screen and (min-width: 721px) and (max-width: 1020px) {
+  .versus {
+    margin-top: 12rem;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .fixture-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .fixture-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+  }
+  .fixture-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 90%;
+  }
+  .fixture-right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: centre;
+    -ms-flex-align: centre;
+    align-items: centre;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 37%;
+    margin: 0 auto;
+  }
+  .versus {
+    margin: 1rem auto;
+  }
+  .fixture-card {
+    width: 40%;
+    margin: 0 0.555rm;
+  }
+  .fixture-card-right {
+    width: 100%;
+    margin: 0 0.555rm;
+  }
+  .changeform-button {
+    font-size: 1rem;
+  }
+  .fight-btn {
+    font-size: 1.5rem;
+  }
+}

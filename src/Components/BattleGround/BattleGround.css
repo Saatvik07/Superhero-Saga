@@ -1,0 +1,334 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.battleground {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  margin: 1.1rem 0;
+}
+
+.battle-div {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.battle-left,
+.battle-right {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 20%;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.answer-div {
+  width: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 1.1rem;
+  -webkit-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+.battle-middle {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 40%;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.battle-props-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  font-size: 2rem;
+}
+.results {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.animation {
+  border: #f4a261;
+  height: 50px;
+  width: 300px;
+  margin: 0 auto;
+  -webkit-animation: animate 3s linear;
+  animation: animate 3s linear;
+}
+#transform1,
+#transform2,
+#transform3,
+#transform4,
+#transform5,
+#transform6 {
+  color: #242423;
+  margin: 0.55rem;
+  font-size: 1rem;
+  padding: 0.55rem;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+#b1,
+#b2,
+#b3,
+#b4,
+#b5,
+#b6 {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.btn-div {
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  font-size: 1rem;
+  margin: 1.1rem;
+  padding: 0.55rem;
+}
+.battle-prop h2 {
+  font-size: 1.5rem;
+  color: #f4a261;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.answer-img {
+  width: 30px;
+  height: auto;
+  margin: 0.27rem 0;
+}
+.btn-div button {
+  background-color: #f4a261;
+  border: none;
+}
+.end-btn,
+.next-fight-btn {
+  font-size: 1.1rem;
+  background-color: #f4a261;
+  border: none;
+  margin: 1.1rem;
+  display: none;
+}
+.message-img {
+  width: 95%;
+  height: auto;
+  -webkit-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+  z-index: 100;
+}
+.message-img-inverted {
+  width: 95%;
+  height: auto;
+  z-index: 100;
+}
+.message-content {
+  font-size: 1rem;
+  top: 50px;
+  z-index: 1000;
+}
+#right2,
+#left2 {
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+@-webkit-keyframes animate {
+  0% {
+    width: 0%;
+    border: 1px solid #f4a261;
+  }
+  100% {
+    width: 100%;
+    background-color: #f4a261;
+  }
+}
+@keyframes animate {
+  0% {
+    width: 0%;
+    border: 1px solid #f4a261;
+  }
+  100% {
+    width: 100%;
+    background-color: #f4a261;
+  }
+}
+@media only screen and (max-width: 1020px) and (min-width: 721px) {
+  .message-content {
+    font-size: 0.67rem;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .battleground {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .battle-div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .battle-prop h2 {
+    font-size: 1rem;
+  }
+  .btn-div {
+    font-size: 1rem;
+    margin: 0.55rem;
+    padding: 0.55rem;
+  }
+  .answer-div {
+    margin: 0.55rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .battle-left,
+  .battle-right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 40%;
+  }
+  .battle-middle {
+    width: 100%;
+  }
+  .battle-props-div {
+    font-size: 1rem;
+  }
+  .answer-img {
+    width: 20px;
+    height: auto;
+    margin: 0 0.27rem;
+  }
+  .btn-div button {
+    font-size: 1rem;
+  }
+  .animation {
+    font-size: 1rem;
+  }
+  .end-btn,
+  .next-fight-btn {
+    font-size: 1rem;
+  }
+  .message-content {
+    font-size: 0.66777rem;
+  }
+  .message-container .message-img {
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+  }
+}

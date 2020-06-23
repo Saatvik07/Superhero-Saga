@@ -1,0 +1,68 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.fixCard-powerStats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.fixCard {
+  width: 100%;
+  display: inline-block;
+  border: 2px solid #e76f51;
+}
+.fixCard-title {
+  text-align: center;
+}
+
+.powerStats {
+  font-size: 1rem;
+}
+.powerStats span {
+  font-size: 1.11rem;
+  color: #e9c46a;
+}
+@media only screen and (min-width: 721px) and (max-width: 1020px) {
+  .powerStats {
+    font-size: 0.6777rem;
+  }
+  .powerStats span {
+    font-size: 0.67777rem;
+  }
+  .fixCard-title {
+    font-size: 0.88888rem;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .powerStats {
+    font-size: 0.555rem;
+  }
+  .powerStats span {
+    font-size: 0.555rem;
+    color: #e9c46a;
+  }
+  .fixCard-title {
+    font-size: 1rem;
+  }
+  .fixCard-button {
+    font-size: 0.555rem;
+    padding: 0.27rem 0.55rem;
+  }
+  .fixCard-text {
+    margin-bottom: 0.27rem;
+  }
+}
